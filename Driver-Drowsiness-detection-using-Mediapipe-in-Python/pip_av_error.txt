@@ -1,0 +1,4 @@
+WARNING: Ignoring invalid distribution -cipy (c:\users\prave\appdata\local\programs\python\python310\lib\site-packages)
+Requirement already satisfied: av in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (17.0.0)
+WARNING: Ignoring invalid distribution -cipy (c:\users\prave\appdata\local\programs\python\python310\lib\site-packages)
+WARNING: Ignoring invalid distribution -cipy (c:\users\prave\appdata\local\programs\python\python310\lib\site-packages)

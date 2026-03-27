@@ -1,0 +1,297 @@
+WARNING: Ignoring invalid distribution -cipy (c:\users\prave\appdata\local\programs\python\python310\lib\site-packages)
+Collecting cryptography==38.0.0 (from -r requirements.txt (line 1))
+  Using cached cryptography-38.0.0-cp36-abi3-win_amd64.whl.metadata (5.3 kB)
+Collecting pyOpenSSL (from -r requirements.txt (line 2))
+  Using cached pyopenssl-26.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting aiortc (from -r requirements.txt (line 3))
+  Using cached aiortc-1.14.0-py3-none-any.whl.metadata (4.9 kB)
+Requirement already satisfied: numpy in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from -r requirements.txt (line 4)) (1.24.3)
+Requirement already satisfied: pydub in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from -r requirements.txt (line 5)) (0.25.1)
+Requirement already satisfied: mediapipe in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from -r requirements.txt (line 6)) (0.10.9)
+Collecting streamlit==1.13.0 (from -r requirements.txt (line 7))
+  Using cached streamlit-1.13.0-py2.py3-none-any.whl.metadata (1.3 kB)
+Collecting streamlit_webrtc==0.43.4 (from -r requirements.txt (line 8))
+  Using cached streamlit_webrtc-0.43.4-py3-none-any.whl.metadata (15 kB)
+Collecting streamlit-nested-layout==0.1.1 (from -r requirements.txt (line 9))
+  Using cached streamlit_nested_layout-0.1.1-py3-none-any.whl
+Requirement already satisfied: cffi>=1.12 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from cryptography==38.0.0->-r requirements.txt (line 1)) (2.0.0)
+Requirement already satisfied: altair>=3.2.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (5.5.0)
+Requirement already satisfied: blinker>=1.0.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (1.9.0)
+Collecting cachetools>=4.0 (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached cachetools-7.0.5-py3-none-any.whl.metadata (5.6 kB)
+Requirement already satisfied: click>=7.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (8.2.1)
+Requirement already satisfied: importlib-metadata>=1.4 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (8.7.0)
+Requirement already satisfied: packaging>=14.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (25.0)
+Requirement already satisfied: pandas>=0.21.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (2.0.3)
+Requirement already satisfied: pillow>=6.2.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (10.4.0)
+Collecting protobuf!=3.20.2,<4,>=3.12 (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached protobuf-3.20.3-cp310-cp310-win_amd64.whl.metadata (698 bytes)
+Requirement already satisfied: pyarrow>=4.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (21.0.0)
+Collecting pydeck>=0.1.dev5 (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached pydeck-0.9.1-py2.py3-none-any.whl.metadata (4.1 kB)
+Collecting pympler>=0.9 (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached Pympler-1.1-py3-none-any.whl.metadata (3.6 kB)
+Requirement already satisfied: python-dateutil in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (2.9.0.post0)
+Requirement already satisfied: requests>=2.4 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (2.32.5)
+Requirement already satisfied: rich>=10.11.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (14.1.0)
+Collecting semver (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached semver-3.0.4-py3-none-any.whl.metadata (6.8 kB)
+Collecting toml (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached toml-0.10.2-py2.py3-none-any.whl.metadata (7.1 kB)
+Requirement already satisfied: tornado>=5.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (6.5.5)
+Requirement already satisfied: typing-extensions>=3.10.0.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (4.15.0)
+Requirement already satisfied: tzlocal>=1.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from streamlit==1.13.0->-r requirements.txt (line 7)) (5.3.1)
+Collecting validators>=0.2 (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached validators-0.35.0-py3-none-any.whl.metadata (3.9 kB)
+Collecting gitpython!=3.1.19 (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached gitpython-3.1.46-py3-none-any.whl.metadata (13 kB)
+Collecting watchdog (from streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached watchdog-6.0.0-py3-none-win_amd64.whl.metadata (44 kB)
+Collecting aioice<1.0.0,>=0.10.1 (from aiortc->-r requirements.txt (line 3))
+  Using cached aioice-0.10.2-py3-none-any.whl.metadata (4.1 kB)
+Collecting av<17.0.0,>=14.0.0 (from aiortc->-r requirements.txt (line 3))
+  Using cached av-16.1.0-cp310-cp310-win_amd64.whl.metadata (4.7 kB)
+INFO: pip is looking at multiple versions of aiortc to determine which version is compatible with other requirements. This could take a while.
+Collecting aiortc (from -r requirements.txt (line 3))
+  Using cached aiortc-1.13.0-py3-none-any.whl.metadata (4.9 kB)
+Collecting av<15.0.0,>=14.0.0 (from aiortc->-r requirements.txt (line 3))
+  Using cached av-14.4.0.tar.gz (3.9 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting aiortc (from -r requirements.txt (line 3))
+  Using cached aiortc-1.12.0-py3-none-any.whl.metadata (4.9 kB)
+  Using cached aiortc-1.11.0-cp39-abi3-win_amd64.whl.metadata (5.6 kB)
+  Using cached aiortc-1.10.1-cp39-abi3-win_amd64.whl.metadata (5.6 kB)
+Collecting av<14.0.0,>=9.0.0 (from aiortc->-r requirements.txt (line 3))
+  Using cached av-13.1.0-cp310-cp310-win_amd64.whl.metadata (4.6 kB)
+Collecting aiortc (from -r requirements.txt (line 3))
+  Using cached aiortc-1.10.0-cp39-abi3-win_amd64.whl.metadata (5.6 kB)
+  Using cached aiortc-1.9.0-cp38-abi3-win_amd64.whl.metadata (5.6 kB)
+Collecting av<13.0.0,>=9.0.0 (from aiortc->-r requirements.txt (line 3))
+  Using cached av-12.3.0-cp310-cp310-win_amd64.whl.metadata (4.7 kB)
+Collecting aiortc (from -r requirements.txt (line 3))
+  Using cached aiortc-1.8.0-cp38-abi3-win_amd64.whl.metadata (5.6 kB)
+Collecting av<12.0.0,>=9.0.0 (from aiortc->-r requirements.txt (line 3))
+  Using cached av-11.0.0.tar.gz (3.7 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+INFO: pip is still looking at multiple versions of aiortc to determine which version is compatible with other requirements. This could take a while.
+Collecting aiortc (from -r requirements.txt (line 3))
+  Using cached aiortc-1.7.0-cp38-abi3-win_amd64.whl.metadata (5.6 kB)
+  Using cached aiortc-1.6.0-cp38-abi3-win_amd64.whl.metadata (6.1 kB)
+Collecting google-crc32c>=1.1 (from aiortc->-r requirements.txt (line 3))
+  Using cached google_crc32c-1.8.0-cp310-cp310-win_amd64.whl.metadata (1.8 kB)
+Collecting pyee>=9.0.0 (from aiortc->-r requirements.txt (line 3))
+  Using cached pyee-13.0.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting pylibsrtp>=0.5.6 (from aiortc->-r requirements.txt (line 3))
+  Using cached pylibsrtp-1.0.0-cp310-abi3-win_amd64.whl.metadata (4.2 kB)
+Collecting dnspython>=2.0.0 (from aioice<1.0.0,>=0.10.1->aiortc->-r requirements.txt (line 3))
+  Using cached dnspython-2.8.0-py3-none-any.whl.metadata (5.7 kB)
+Collecting ifaddr>=0.2.0 (from aioice<1.0.0,>=0.10.1->aiortc->-r requirements.txt (line 3))
+  Using cached ifaddr-0.2.0-py3-none-any.whl.metadata (4.9 kB)
+INFO: pip is looking at multiple versions of pyopenssl to determine which version is compatible with other requirements. This could take a while.
+Collecting pyOpenSSL (from -r requirements.txt (line 2))
+  Using cached pyopenssl-25.3.0-py3-none-any.whl.metadata (17 kB)
+  Using cached pyopenssl-25.2.0-py3-none-any.whl.metadata (17 kB)
+  Using cached pyopenssl-25.1.0-py3-none-any.whl.metadata (17 kB)
+  Using cached pyOpenSSL-25.0.0-py3-none-any.whl.metadata (16 kB)
+  Using cached pyOpenSSL-24.3.0-py3-none-any.whl.metadata (15 kB)
+  Using cached pyOpenSSL-24.2.1-py3-none-any.whl.metadata (13 kB)
+  Using cached pyOpenSSL-24.1.0-py3-none-any.whl.metadata (12 kB)
+INFO: pip is still looking at multiple versions of pyopenssl to determine which version is compatible with other requirements. This could take a while.
+  Using cached pyOpenSSL-24.0.0-py3-none-any.whl.metadata (12 kB)
+  Using cached pyOpenSSL-23.3.0-py3-none-any.whl.metadata (12 kB)
+  Using cached pyOpenSSL-23.2.0-py3-none-any.whl.metadata (10 kB)
+Requirement already satisfied: absl-py in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from mediapipe->-r requirements.txt (line 6)) (2.3.1)
+Requirement already satisfied: attrs>=19.1.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from mediapipe->-r requirements.txt (line 6)) (25.3.0)
+Requirement already satisfied: flatbuffers>=2.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from mediapipe->-r requirements.txt (line 6)) (25.12.19)
+Requirement already satisfied: matplotlib in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from mediapipe->-r requirements.txt (line 6)) (3.7.2)
+Requirement already satisfied: opencv-contrib-python in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from mediapipe->-r requirements.txt (line 6)) (4.13.0.92)
+Requirement already satisfied: sounddevice>=0.4.4 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from mediapipe->-r requirements.txt (line 6)) (0.5.5)
+Requirement already satisfied: jinja2 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from altair>=3.2.0->streamlit==1.13.0->-r requirements.txt (line 7)) (3.1.4)
+Requirement already satisfied: jsonschema>=3.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from altair>=3.2.0->streamlit==1.13.0->-r requirements.txt (line 7)) (4.25.1)
+Requirement already satisfied: narwhals>=1.14.2 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from altair>=3.2.0->streamlit==1.13.0->-r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: pycparser in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from cffi>=1.12->cryptography==38.0.0->-r requirements.txt (line 1)) (2.23)
+Requirement already satisfied: colorama in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from click>=7.0->streamlit==1.13.0->-r requirements.txt (line 7)) (0.4.6)
+Collecting gitdb<5,>=4.0.1 (from gitpython!=3.1.19->streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached gitdb-4.0.12-py3-none-any.whl.metadata (1.2 kB)
+Collecting smmap<6,>=3.0.1 (from gitdb<5,>=4.0.1->gitpython!=3.1.19->streamlit==1.13.0->-r requirements.txt (line 7))
+  Using cached smmap-5.0.3-py3-none-any.whl.metadata (4.6 kB)
+Requirement already satisfied: zipp>=3.20 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from importlib-metadata>=1.4->streamlit==1.13.0->-r requirements.txt (line 7)) (3.23.0)
+Requirement already satisfied: jsonschema-specifications>=2023.03.6 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from jsonschema>=3.0->altair>=3.2.0->streamlit==1.13.0->-r requirements.txt (line 7)) (2025.9.1)
+Requirement already satisfied: referencing>=0.28.4 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from jsonschema>=3.0->altair>=3.2.0->streamlit==1.13.0->-r requirements.txt (line 7)) (0.36.2)
+Requirement already satisfied: rpds-py>=0.7.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from jsonschema>=3.0->altair>=3.2.0->streamlit==1.13.0->-r requirements.txt (line 7)) (0.27.1)
+Requirement already satisfied: pytz>=2020.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from pandas>=0.21.0->streamlit==1.13.0->-r requirements.txt (line 7)) (2025.2)
+Requirement already satisfied: tzdata>=2022.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from pandas>=0.21.0->streamlit==1.13.0->-r requirements.txt (line 7)) (2025.2)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from jinja2->altair>=3.2.0->streamlit==1.13.0->-r requirements.txt (line 7)) (2.1.5)
+Requirement already satisfied: pywin32>=226 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from pympler>=0.9->streamlit==1.13.0->-r requirements.txt (line 7)) (311)
+Requirement already satisfied: six>=1.5 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from python-dateutil->streamlit==1.13.0->-r requirements.txt (line 7)) (1.17.0)
+Requirement already satisfied: charset_normalizer<4,>=2 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.4->streamlit==1.13.0->-r requirements.txt (line 7)) (3.4.3)
+Requirement already satisfied: idna<4,>=2.5 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.4->streamlit==1.13.0->-r requirements.txt (line 7)) (3.10)
+Requirement already satisfied: urllib3<3,>=1.21.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.4->streamlit==1.13.0->-r requirements.txt (line 7)) (2.5.0)
+Requirement already satisfied: certifi>=2017.4.17 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from requests>=2.4->streamlit==1.13.0->-r requirements.txt (line 7)) (2025.8.3)
+Requirement already satisfied: markdown-it-py>=2.2.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from rich>=10.11.0->streamlit==1.13.0->-r requirements.txt (line 7)) (4.0.0)
+Requirement already satisfied: pygments<3.0.0,>=2.13.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from rich>=10.11.0->streamlit==1.13.0->-r requirements.txt (line 7)) (2.19.2)
+Requirement already satisfied: mdurl~=0.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from markdown-it-py>=2.2.0->rich>=10.11.0->streamlit==1.13.0->-r requirements.txt (line 7)) (0.1.2)
+Requirement already satisfied: contourpy>=1.0.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->mediapipe->-r requirements.txt (line 6)) (1.2.1)
+Requirement already satisfied: cycler>=0.10 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->mediapipe->-r requirements.txt (line 6)) (0.12.1)
+Requirement already satisfied: fonttools>=4.22.0 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->mediapipe->-r requirements.txt (line 6)) (4.59.2)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\users\prave\appdata\local\programs\python\python310\lib\site-packages (from matplotlib->mediapipe->-r requirements.txt (line 6)) (1.4.9)
+Collecting pyparsing<3.1,>=2.3.1 (from matplotlib->mediapipe->-r requirements.txt (line 6))
+  Using cached pyparsing-3.0.9-py3-none-any.whl.metadata (4.2 kB)
+Collecting numpy (from -r requirements.txt (line 4))
+  Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Using cached cryptography-38.0.0-cp36-abi3-win_amd64.whl (2.4 MB)
+Using cached streamlit-1.13.0-py2.py3-none-any.whl (9.2 MB)
+Using cached streamlit_webrtc-0.43.4-py3-none-any.whl (874 kB)
+Using cached aiortc-1.6.0-cp38-abi3-win_amd64.whl (1.0 MB)
+Using cached aioice-0.10.2-py3-none-any.whl (24 kB)
+Using cached protobuf-3.20.3-cp310-cp310-win_amd64.whl (904 kB)
+Using cached pyOpenSSL-23.2.0-py3-none-any.whl (59 kB)
+Using cached cachetools-7.0.5-py3-none-any.whl (13 kB)
+Using cached dnspython-2.8.0-py3-none-any.whl (331 kB)
+Using cached gitpython-3.1.46-py3-none-any.whl (208 kB)
+Using cached gitdb-4.0.12-py3-none-any.whl (62 kB)
+Using cached smmap-5.0.3-py3-none-any.whl (24 kB)
+Using cached google_crc32c-1.8.0-cp310-cp310-win_amd64.whl (34 kB)
+Using cached ifaddr-0.2.0-py3-none-any.whl (12 kB)
+Using cached pydeck-0.9.1-py2.py3-none-any.whl (6.9 MB)
+Using cached pyee-13.0.1-py3-none-any.whl (15 kB)
+Using cached pylibsrtp-1.0.0-cp310-abi3-win_amd64.whl (1.6 MB)
+Using cached Pympler-1.1-py3-none-any.whl (165 kB)
+Using cached validators-0.35.0-py3-none-any.whl (44 kB)
+Using cached pyparsing-3.0.9-py3-none-any.whl (98 kB)
+Using cached numpy-2.2.6-cp310-cp310-win_amd64.whl (12.9 MB)
+Using cached semver-3.0.4-py3-none-any.whl (17 kB)
+Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Using cached watchdog-6.0.0-py3-none-win_amd64.whl (79 kB)
+Building wheels for collected packages: av
+  Building wheel for av (pyproject.toml): started
+  Building wheel for av (pyproject.toml): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  Building wheel for av (pyproject.toml) did not run successfully.
+  exit code: 1
+  
+  [103 lines of output]
+  C:\Users\prave\AppData\Local\Temp\pip-build-env-q7kqaqwe\overlay\Lib\site-packages\setuptools\_distutils\dist.py:287: UserWarning: Unknown distribution option: 'test_suite'
+    warnings.warn(msg)
+  C:\Users\prave\AppData\Local\Temp\pip-build-env-q7kqaqwe\overlay\Lib\site-packages\setuptools\dist.py:765: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+  !!
+  
+          ********************************************************************************
+          Please consider removing the following classifiers in favor of a SPDX license expression:
+  
+          License :: OSI Approved :: BSD License
+  
+          See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+          ********************************************************************************
+  
+  !!
+    self._finalize_license_expression()
+  running bdist_wheel
+  running build
+  running build_py
+  creating build\lib.win-amd64-cpython-310\av
+  copying av\about.py -> build\lib.win-amd64-cpython-310\av
+  copying av\datasets.py -> build\lib.win-amd64-cpython-310\av
+  copying av\deprecation.py -> build\lib.win-amd64-cpython-310\av
+  copying av\__init__.py -> build\lib.win-amd64-cpython-310\av
+  copying av\__main__.py -> build\lib.win-amd64-cpython-310\av
+  creating build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\__init__.py -> build\lib.win-amd64-cpython-310\av\audio
+  creating build\lib.win-amd64-cpython-310\av\codec
+  copying av\codec\__init__.py -> build\lib.win-amd64-cpython-310\av\codec
+  creating build\lib.win-amd64-cpython-310\av\container
+  copying av\container\__init__.py -> build\lib.win-amd64-cpython-310\av\container
+  creating build\lib.win-amd64-cpython-310\av\data
+  copying av\data\__init__.py -> build\lib.win-amd64-cpython-310\av\data
+  creating build\lib.win-amd64-cpython-310\av\filter
+  copying av\filter\__init__.py -> build\lib.win-amd64-cpython-310\av\filter
+  creating build\lib.win-amd64-cpython-310\av\sidedata
+  copying av\sidedata\__init__.py -> build\lib.win-amd64-cpython-310\av\sidedata
+  creating build\lib.win-amd64-cpython-310\av\subtitles
+  copying av\subtitles\__init__.py -> build\lib.win-amd64-cpython-310\av\subtitles
+  creating build\lib.win-amd64-cpython-310\av\video
+  copying av\video\__init__.py -> build\lib.win-amd64-cpython-310\av\video
+  copying av\buffer.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\bytesource.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\descriptor.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\dictionary.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\enum.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\error.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\format.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\frame.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\logging.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\option.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\packet.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\plane.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\stream.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\utils.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\__init__.pxd -> build\lib.win-amd64-cpython-310\av
+  copying av\audio\codeccontext.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\fifo.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\format.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\frame.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\layout.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\plane.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\resampler.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\stream.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\audio\__init__.pxd -> build\lib.win-amd64-cpython-310\av\audio
+  copying av\codec\codec.pxd -> build\lib.win-amd64-cpython-310\av\codec
+  copying av\codec\context.pxd -> build\lib.win-amd64-cpython-310\av\codec
+  copying av\codec\__init__.pxd -> build\lib.win-amd64-cpython-310\av\codec
+  copying av\container\core.pxd -> build\lib.win-amd64-cpython-310\av\container
+  copying av\container\input.pxd -> build\lib.win-amd64-cpython-310\av\container
+  copying av\container\output.pxd -> build\lib.win-amd64-cpython-310\av\container
+  copying av\container\pyio.pxd -> build\lib.win-amd64-cpython-310\av\container
+  copying av\container\streams.pxd -> build\lib.win-amd64-cpython-310\av\container
+  copying av\container\__init__.pxd -> build\lib.win-amd64-cpython-310\av\container
+  copying av\data\stream.pxd -> build\lib.win-amd64-cpython-310\av\data
+  copying av\data\__init__.pxd -> build\lib.win-amd64-cpython-310\av\data
+  copying av\filter\context.pxd -> build\lib.win-amd64-cpython-310\av\filter
+  copying av\filter\filter.pxd -> build\lib.win-amd64-cpython-310\av\filter
+  copying av\filter\graph.pxd -> build\lib.win-amd64-cpython-310\av\filter
+  copying av\filter\link.pxd -> build\lib.win-amd64-cpython-310\av\filter
+  copying av\filter\pad.pxd -> build\lib.win-amd64-cpython-310\av\filter
+  copying av\filter\__init__.pxd -> build\lib.win-amd64-cpython-310\av\filter
+  copying av\sidedata\motionvectors.pxd -> build\lib.win-amd64-cpython-310\av\sidedata
+  copying av\sidedata\sidedata.pxd -> build\lib.win-amd64-cpython-310\av\sidedata
+  copying av\sidedata\__init__.pxd -> build\lib.win-amd64-cpython-310\av\sidedata
+  copying av\subtitles\codeccontext.pxd -> build\lib.win-amd64-cpython-310\av\subtitles
+  copying av\subtitles\stream.pxd -> build\lib.win-amd64-cpython-310\av\subtitles
+  copying av\subtitles\subtitle.pxd -> build\lib.win-amd64-cpython-310\av\subtitles
+  copying av\subtitles\__init__.pxd -> build\lib.win-amd64-cpython-310\av\subtitles
+  copying av\video\codeccontext.pxd -> build\lib.win-amd64-cpython-310\av\video
+  copying av\video\format.pxd -> build\lib.win-amd64-cpython-310\av\video
+  copying av\video\frame.pxd -> build\lib.win-amd64-cpython-310\av\video
+  copying av\video\plane.pxd -> build\lib.win-amd64-cpython-310\av\video
+  copying av\video\reformatter.pxd -> build\lib.win-amd64-cpython-310\av\video
+  copying av\video\stream.pxd -> build\lib.win-amd64-cpython-310\av\video
+  copying av\video\__init__.pxd -> build\lib.win-amd64-cpython-310\av\video
+  running build_ext
+  building 'av.buffer' extension
+  creating build\temp.win-amd64-cpython-310\Release\src\av
+  "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX86\x64\cl.exe" /c /nologo /O2 /W3 /GL /DNDEBUG /MD -IC:\Users\prave\AppData\Local\Programs\Python\Python310\include -IC:\Users\prave\AppData\Local\Programs\Python\Python310\Include "-IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\include" "-IC:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Auxiliary\VS\include" "-IC:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\um" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\shared" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\winrt" "-IC:\Program Files (x86)\Windows Kits\10\\include\10.0.26100.0\\cppwinrt" /Tcsrc\av\buffer.c /Fobuild\temp.win-amd64-cpython-310\Release\src\av\buffer.obj
+  buffer.c
+  "C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\bin\HostX86\x64\link.exe" /nologo /INCREMENTAL:NO /LTCG /DLL /MANIFEST:EMBED,ID=2 /MANIFESTUAC:NO /LIBPATH:C:\Users\prave\AppData\Local\Programs\Python\Python310\libs /LIBPATH:C:\Users\prave\AppData\Local\Programs\Python\Python310 /LIBPATH:C:\Users\prave\AppData\Local\Programs\Python\Python310\PCbuild\amd64 "/LIBPATH:C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\VC\Tools\MSVC\14.44.35207\lib\x64" "/LIBPATH:C:\Program Files (x86)\Windows Kits\10\lib\10.0.26100.0\ucrt\x64" "/LIBPATH:C:\Program Files (x86)\Windows Kits\10\\lib\10.0.26100.0\\um\x64" avformat.lib avcodec.lib avdevice.lib avutil.lib avfilter.lib swscale.lib swresample.lib /EXPORT:PyInit_buffer build\temp.win-amd64-cpython-310\Release\src\av\buffer.obj /OUT:build\lib.win-amd64-cpython-310\av\buffer.cp310-win_amd64.pyd /IMPLIB:build\temp.win-amd64-cpython-310\Release\src\av\buffer.cp310-win_amd64.lib
+  LINK : fatal error LNK1181: cannot open input file 'avformat.lib'
+  error: command 'C:\\Program Files (x86)\\Microsoft Visual Studio\\2022\\BuildTools\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX86\\x64\\link.exe' failed with exit code 1181
+  [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for av
+Failed to build av
+error: failed-wheel-build-for-install
+
+Failed to build installable wheels for some pyproject.toml based projects
+
+av
